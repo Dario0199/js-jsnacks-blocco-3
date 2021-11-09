@@ -7,5 +7,9 @@ console.log('numeri', numbers);
 
 const squaredNumbers = numbers.map( (number) => {
     return Math.pow(number, 2)
-})
+});
+
+// const squaredNumbers = numbers.map( number => number = Math.pow(number, 2)
+// );
+
 console.log('Numeri elevati al quadrato', squaredNumbers);
